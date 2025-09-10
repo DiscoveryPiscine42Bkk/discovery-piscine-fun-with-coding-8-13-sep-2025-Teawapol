@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+    .parallax p{
+        color: black;
+        font-size: 20px;
+    }
+.parallax-1 {
+    background-image: url('https://imgs.search.brave.com/A5o9uxmnoM0bSwFZ3Vg6bKTb-af8d6EpVmlkUu9OGG0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFGXzZQ/M2ItMDgvMS8wLzE2/MDB3L2NhbnZhLXdo/aXRlLWFuZC1ibHVl/LWJvbGQtYW5kLXBs/YXlmdWwtZnVubnkt/d29yay1saWZlLW1l/bWUtQUV3NnVBTl9r/V1EuanBn');
+}
+.parallax-2 {
+    background-image: url('https://imgs.search.brave.com/dLyQ60Ly5lNpq6EWBNAq9Bu32iCphlnOwEiBq7dHFRA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFGX3dY/NWZoMkUvMS8wLzE2/MDB3L2NhbnZhLXll/bGxvdy1hbmQtYmxh/Y2std29yay1mdW5u/eS1tZW1lLTVoS3hM/Y3c3bjNvLmpwZw');
+}
+.content {
+    padding: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
