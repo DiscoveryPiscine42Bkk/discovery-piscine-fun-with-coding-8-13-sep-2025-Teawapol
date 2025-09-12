@@ -1,4 +1,3 @@
-/* ===== Base ===== */
 * {
     box-sizing: border-box
 }
@@ -14,7 +13,6 @@ body {
     color: #111;
 }
 
-/* ===== Navbar (fixed) ===== */
 .with-nav {
     padding-top: 72px
 }
@@ -50,7 +48,6 @@ body {
     opacity: 1
 }
 
-/* ===== Sections / Layout ===== */
 .section {
     position: relative;
     padding: 90px 24px;
@@ -101,7 +98,6 @@ h2 {
     line-height: 1.6
 }
 
-/* Chips & Buttons */
 .chips {
     display: flex;
     gap: 10px;
@@ -118,7 +114,6 @@ h2 {
     font-size: .95rem;
 }
 
-/* ปุ่ม + รูปไอคอนจากลิงก์ภายนอก */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -143,14 +138,12 @@ h2 {
     display: block;
 }
 
-/* ===== Full-bleed Color Bands ===== */
 body,
 .with-nav,
 .with-nav.alt {
     background: #7ec0ee;
 }
 
-/* ฟ้า */
 
 .section::before {
     content: "";
@@ -167,17 +160,14 @@ body,
     background: #7ec0ee;
 }
 
-/* ฟ้า */
 #showcase.section::before {
     background: #f5c96b;
 }
 
-/* เหลือง */
 #contact.section::before {
     background: #f78b66;
 }
 
-/* ส้ม */
 
 #showcase.section,
 #contact.section {
